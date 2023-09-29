@@ -1,0 +1,48 @@
+.dad-form select,
+.dad-form label{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0;
+    height: 46px;
+    line-height: 46px;
+    margin-right: 10px;
+}
+.dad-form select{
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+select:active, select:hover, select:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.real-estate-item-link{
+    display: inline-block;
+    vertical-align: top;
+    color: #53f !important;
+    padding: 10px 20px;
+    background-color: #fff !important;
+    border-radius: 5px;
+    border: 1px solid #53f;
+    text-decoration: none !important;
+    transition: 1s;
+}
+.real-estate-item-link:hover{
+    background-color: #53f !important;
+    color: #fff !important;
+    border: 1px solid #fff;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+.real-estate-item{
+    margin-bottom: 100px;
+}
+.hide-item{
+    display: none;
+}
+#filter-error{
+    color: red;
+    margin-top: 50px;
+    font-weight: bold;
+}
